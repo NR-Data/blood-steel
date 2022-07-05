@@ -1,0 +1,827 @@
+{
+  "catalogue": {
+    "name": "Anglo-Zulu War (1879) Zulu",
+    "id": "4982-b2e5-d462-10ce",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "3eb5-b432-c9db-d045",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Married Zulu Warriors",
+        "id": "4761-e7a7-a04d-4092",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5982-c63b-42d6-034c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "65e1-1b9c-18b1-f8c8", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Dabulamanzi Kampande",
+        "id": "aeb4-1253-e03e-9a26",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d4db-a357-56e0-6044",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "50d6-c35a-a56f-6a94", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Zulu Warriors with Muskets",
+        "id": "2ee2-379b-f9b9-435f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bfb6-c95a-b939-b248",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d1cd-e105-1f73-3368", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Unmarried Zulu Warriors",
+        "id": "0418-7501-8ef1-96d4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "35e0-5c04-8db9-944d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d181-bceb-3dd7-5893", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Royal Guard Warriors",
+        "id": "3765-c31a-d882-feee",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a74c-05d5-5e77-dbd4",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e16f-b6e7-0b11-a756", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Zulu Induna (Second)",
+        "id": "da7e-75b0-14c5-4170",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1a78-e146-4408-ecac",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3341-dd5d-eed7-daf7", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}]
+      },
+      {
+        "name": "Zulu Induna",
+        "id": "c8e5-4cb3-c809-4078",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "04e4-27b7-1a16-538d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "37c1-8797-693d-7ff7", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Zulu Warriors with Rifles",
+        "id": "e04c-7195-14f4-426a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "35b4-c1fb-c6a1-e4fd",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "acd3-2a8c-92da-dc8c", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      }
+    ],
+    "rules": [
+      {
+        "name": "National Trait - Horns of the Buffalo",
+        "id": "352b-598a-83a8-7d2b",
+        "description": "A Zulu Force may have a subordinate second Induna leader for 10 points. Zulus taking a Run to Ground action when they already have a Run marker gain Fatigue only if they fail a 1d10 Resolve test.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Zulu Induna",
+        "id": "04e4-27b7-1a16-538d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "profiles": [
+          {
+            "name": "Zulu Induna",
+            "id": "6557-0ee3-96b0-ed34",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "-", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "6", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "1", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Melee",
+            "id": "31e7-fe23-044c-08a1",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+              {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Thrown Weapons",
+            "id": "2ab2-0b89-733a-ad46",
+            "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+            "hidden": false
+          },
+          {
+            "name": "Inspiring",
+            "id": "ea73-1f33-6069-d115",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          },
+          {"name": "Assault", "id": "2c47-58b3-6310-967d", "description": "May reroll all failed results during Shoot Saves from Defensive Fire.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Zulu Induna (Second)",
+        "id": "1a78-e146-4408-ecac",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 10}],
+        "profiles": [
+          {
+            "name": "Zulu Induna",
+            "id": "8f64-08a1-72d1-c166",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "-", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "6", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "1", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Melee",
+            "id": "2992-a714-637f-61e2",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+              {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Thrown Weapons",
+            "id": "7cd6-264d-022c-57f0",
+            "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+            "hidden": false
+          },
+          {
+            "name": "Inspiring",
+            "id": "1072-956d-ee90-63c6",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          },
+          {"name": "Assault", "id": "cc63-c8a9-1e90-cd8c", "description": "May reroll all failed results during Shoot Saves from Defensive Fire.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Dabulamanzi Kampande",
+        "id": "d4db-a357-56e0-6044",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 35}],
+        "rules": [
+          {
+            "name": "Glory Hound",
+            "id": "6680-ba4d-e2c4-d0fe",
+            "description": "Must give a Charge order to units in command and Charge range of an opposing unit when this unit is activated.",
+            "hidden": false
+          },
+          {
+            "name": "Tactician",
+            "id": "bc1b-a172-1390-200c",
+            "description": "After resolving the Calamity and Fortune step of the Initiative Phase, this leader’s player may change the value of 1 Initiative Die up or down by one.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Dabulamanzi Kampande",
+            "id": "13c3-6c68-fc70-afe2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "b707-4bd0-626b-ecde",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7a33-ea80-e1d8-b993",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+            "profiles": [
+              {
+                "name": "Dabulamanzi Kampande",
+                "id": "c620-291b-4d9d-7d27",
+                "hidden": false,
+                "typeId": "3332-b503-9905-37d2",
+                "typeName": "Leader Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+                  {"name": "Shoot", "$text": "8", "typeId": "b303-a47d-19b6-7016"},
+                  {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+                  {"name": "Melee Save", "$text": "6", "typeId": "d2e5-53a0-b6d7-1361"},
+                  {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+                  {"name": "Command Range", "$text": "12", "typeId": "b4e1-6d29-7a02-16ed"},
+                  {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Royal Guard",
+            "id": "5531-b4cf-3043-6a21",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "3ce3-d51a-19d4-efaa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "fad0-7673-80e2-2753",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+            "profiles": [
+              {
+                "name": "Royal Guard",
+                "id": "d59f-4303-937a-50a9",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "8", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "6", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "5", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Married Zulu Warriors",
+        "id": "5982-c63b-42d6-034c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Thrown Weapons",
+            "id": "7646-9350-68cf-d715",
+            "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+            "hidden": false
+          },
+          {"name": "Scouts", "id": "6c89-71d8-129c-f21c", "description": "This unit ignores movement penalties from difficult terrain.", "hidden": false},
+          {
+            "name": "Ruthless",
+            "id": "0522-e998-c08a-ca20",
+            "description": "Unit gains a -1 bonus to Shoot and Melee tests if this unit has fewer Fatigue Points than its target.",
+            "hidden": false
+          },
+          {"name": "Large Unit", "id": "afe3-0195-7166-39fe", "description": "This unit may have up to 10 models.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Married Zulu Warrior",
+            "id": "88ac-3b3e-f7f1-17d0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9c53-f440-166d-53da",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "1b36-d5f4-a49e-c7e3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 4}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Married Zulu Warrior",
+                "id": "52ad-5db0-02b0-6646",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "-", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "6", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "3224-93da-4e50-193d",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unmarried Zulu Warriors",
+        "id": "35e0-5c04-8db9-944d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Thrown Weapons",
+            "id": "87a9-7cdd-34f9-e985",
+            "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+            "hidden": false
+          },
+          {"name": "Large Unit", "id": "ed7c-12cb-8f6c-f1ce", "description": "This unit may have up to 10 models.", "hidden": false},
+          {"name": "Furious Assault", "id": "f02f-0932-33e1-8bfc", "description": "May charge from 6” during Charge actions.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Unmarried Zulu Warrior",
+            "id": "e51b-e5bd-0f2e-89c0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "bf76-f63e-8d9d-2229",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "0036-67dd-8af9-1cd4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 4}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Unmarried Zulu Warrior",
+                "id": "e486-a611-e714-54ee",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "-", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "6", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "cb41-e009-b34d-9a0c",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Royal Guard Warriors",
+        "id": "a74c-05d5-5e77-dbd4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Thrown Weapons",
+            "id": "0f92-03fb-a78d-4832",
+            "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+            "hidden": false
+          },
+          {"name": "Large Unit", "id": "4211-5297-91f2-1e9d", "description": "This unit may have up to 10 models.", "hidden": false},
+          {"name": "Furious Assault", "id": "f147-505d-ece0-cc48", "description": "May charge from 6” during Charge actions.", "hidden": false},
+          {"name": "Close Combat Specialists", "id": "e17d-8035-55c8-106a", "description": "This unit may reroll failed Melee tests.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Royal Guard Warrior",
+            "id": "5e8f-b46e-e2af-c32c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0b7f-72c8-aa6f-82c3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "5436-a874-8d9c-e842",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 7}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Royal Guard Warrior",
+                "id": "7c33-3c92-eb47-b21d",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "-", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "6", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "5", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "499b-cf33-8377-924e",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zulu Warriors with Rifles",
+        "id": "35b4-c1fb-c6a1-e4fd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "7546-737b-db1b-e317",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "modifiers": [
+          {
+            "field": "7546-737b-db1b-e317",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "bfb6-c95a-b939-b248",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [{"name": "Elusive", "id": "5904-02d7-5e30-7959", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Zulu Warrior",
+            "id": "d046-5ff4-3ca3-033f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9771-b48b-fd27-a549",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "f8d0-09b0-a6bb-2b9e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 4}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Zulu Warrior",
+                "id": "f71c-cf56-0596-c981",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "58a6-91c6-0836-8af5",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Rifle (BL)",
+                "id": "0c2b-e8f0-3f56-40a9",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zulu Warriors with Muskets",
+        "id": "bfb6-c95a-b939-b248",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "818b-44c7-d090-f0a6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "modifiers": [
+          {
+            "field": "818b-44c7-d090-f0a6",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "35b4-c1fb-c6a1-e4fd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [{"name": "Elusive", "id": "de62-029d-3c2c-9766", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Zulu Warrior",
+            "id": "ce71-caf4-ed18-8b70",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "8952-896f-e744-4d7a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "28e0-0b22-ee7a-7c11",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 3}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Zulu Warrior",
+                "id": "b77f-ef96-cfcb-c254",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "9c59-9069-c89e-81fa",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Rifled Musket (ML)",
+                "id": "1ca5-430f-f1d1-3b62",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "40\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "catalogue": {
+    "name": "Second Taranaki War (1863-1866) Maori",
+    "id": "ba27-8f85-03e5-b069",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "3eb5-b432-c9db-d045",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Greater Maori Ariki",
+        "id": "ba01-6a2e-8487-bb6b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b699-4427-c127-45aa",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c621-0377-7085-e06d", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Lesser Maori Ariki",
+        "id": "40c0-fd03-fd2d-bdb9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "17f3-d87c-25dd-07aa",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "be74-ad2b-9c3c-85d7", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Putatara Tohunga",
+        "id": "5068-8099-1e7c-2018",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "72e5-2e4b-7d2e-487d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bceb-be19-e571-87fe", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}]
+      },
+      {
+        "name": "Te Kooti Arikirangi",
+        "id": "8f15-7550-fab7-fd43",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "49f7-653f-d2a3-2dee",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "37e6-7e92-93fd-c419", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Pakeha Maori (White Men)",
+        "id": "3de5-c674-a417-db8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9011-68b8-1bbb-604f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d144-989e-70e6-4b6a", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Maori Toa with Shotguns",
+        "id": "b13a-b08f-de71-51b8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1d55-871d-57ef-8540",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1023-45b8-ba08-e504", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Maori Toa with Muskets",
+        "id": "308d-a654-4762-07ce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4fa5-18b7-6652-ab1c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d21d-4df8-a455-4dc3", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Improvised Artillery",
+        "id": "02c7-71da-a21e-f7bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6032-1338-24f8-201e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6610-8a6e-7a4f-1659", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      }
+    ],
+    "rules": [
+      {
+        "name": "National Trait - Utu",
+        "id": "93da-b758-645c-4501",
+        "description": "When drawing for missions, the Maori player goes first and pulls or rolls for 2 missions from which he selects one to play, and discards the other one. Once that is done the opponent pulls or rolls for a mission.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Lesser Maori Ariki",
+        "id": "17f3-d87c-25dd-07aa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "profiles": [
+          {
+            "name": "Greater Maori Ariki",
+            "id": "48de-2f3f-8ba5-eb94",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Assault", "id": "63a8-e3d2-bb49-e5f0", "description": "May reroll all failed results during Shoot Saves from Defensive Fire.", "hidden": false},
+          {"name": "True Grit", "id": "f0cf-e7c5-8afc-1d20", "description": "May reroll failed results during Melee Save tests.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Greater Maori Ariki",
+        "id": "b699-4427-c127-45aa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 15}],
+        "profiles": [
+          {
+            "name": "Lesser Maori Ariki",
+            "id": "e5c0-9be2-dd1c-0e1f",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "1", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Assault", "id": "42fb-abc9-4c3c-8645", "description": "May reroll all failed results during Shoot Saves from Defensive Fire.", "hidden": false},
+          {"name": "True Grit", "id": "29d3-3116-fff6-5d0f", "description": "May reroll failed results during Melee Save tests.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Te Kooti Arikirangi",
+        "id": "49f7-653f-d2a3-2dee",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 25}],
+        "profiles": [
+          {
+            "name": "Te Kooti Arikirangi",
+            "id": "547d-e412-83da-a383",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "5", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tactician",
+            "id": "3039-75e5-1494-7002",
+            "description": "After resolving the Calamity and Fortune step of the Initiative Phase, this leader’s player may change the value of 1 Initiative Die up or down by one.",
+            "hidden": false
+          },
+          {
+            "name": "Inspiring",
+            "id": "3c3c-7214-611b-89a7",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Maori Toa with Muskets",
+        "id": "4fa5-18b7-6652-ab1c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [{"name": "Elusive", "id": "9d11-0de7-bce8-cea0", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Maori Toa",
+            "id": "2a11-7c0e-9e1e-be55",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "681a-47c8-49b1-e94b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "98d0-76ba-8826-73f7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 5}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Maori Toa",
+                "id": "6bdd-9512-262a-08d6",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "5", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "0ab6-8f04-3b19-d930",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Smoothbore Musket (ML)",
+                "id": "f00c-5a92-92a5-e37d",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pakeha Maori (White Men)",
+        "id": "9011-68b8-1bbb-604f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [{"name": "Elusive", "id": "4549-aeec-b7e9-d7af", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Pakeha Maori",
+            "id": "5b41-889f-e342-8f47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "c6ab-28af-2ecb-e1bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "0527-f73f-46f8-4c34",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 5}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Pakeha Maori",
+                "id": "2492-ea9d-fdc8-e252",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "3aae-dc32-48ae-7c73",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Rifled Musket (ML)",
+                "id": "129c-e1ac-0153-0a97",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "40\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maori Toa with Shotguns",
+        "id": "1d55-871d-57ef-8540",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {"name": "Elusive", "id": "869f-1c51-b4de-a229", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false},
+          {
+            "name": "Ruthless",
+            "id": "d543-43b3-4a5f-bc69",
+            "description": "Unit gains a -1 bonus to Shoot and Melee tests if this unit has fewer Fatigue Points than its target.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Maori Toa",
+            "id": "1708-a3a7-e98b-3a15",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "c131-46fb-e0ae-cc0c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "06c5-d494-1e7c-26a2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Maori Toa",
+                "id": "a34b-b6bd-916f-9091",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "9178-87c6-0050-2f1c",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Shotgun (Repeater)",
+                "id": "956a-7791-35e2-ec9d",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "12'", "typeId": "8869-9257-22d2-3dce"},
+                  {
+                    "name": "Notes",
+                    "$text": "Each natural roll of 10 adds one additional die to the Shoot test pool, but only once per attack.\nWhen double-barreled, they  are Repeaters. Shotgun-armed units may take 2 Shoot actions per activation when the weapon is listed as a Repeater and do not gain Reload markers.",
+                    "typeId": "dff3-a276-cbdb-d3c7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Improvised Artillery",
+        "id": "6032-1338-24f8-201e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7776-8e61-fd88-02af", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 20}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}],
+        "rules": [
+          {"name": "Intimidating", "id": "71ca-3de3-23ad-25d2", "description": "Opponents hit by this unit must add an extra 1d10 to the Resolve test.", "hidden": false},
+          {"name": "Slow Reload", "id": "8431-3561-ac23-228a", "description": "This unit receives 2 Reload markers after shooting.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Artillery Crew",
+            "id": "af9f-435f-c15e-3b21",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "82d9-e247-bb23-e121",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              },
+              {
+                "id": "d8d5-dcaa-8f34-ca27",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+            "profiles": [
+              {
+                "name": "Artillery Crew",
+                "id": "eeb1-7d7d-dca8-588f",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Light Artillery",
+                "id": "916d-4c5a-00d5-1dab",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {
+                    "name": "Notes",
+                    "$text": "4d10 for Shoot tests, each natural 10 rolled yields an additional d10 roll to hit.\nGain two Reload markers after shooting. Cannot Move and  Shoot. 90 degree arc of fire. Intimidating.",
+                    "typeId": "dff3-a276-cbdb-d3c7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Putatara Tohunga",
+        "id": "72e5-2e4b-7d2e-487d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "716f-717a-577d-8622", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}],
+        "constraints": [
+          {
+            "id": "4bdc-fca2-966d-f1ec",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 10}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+        "rules": [
+          {
+            "name": "Putatara Tohunga",
+            "id": "781d-c460-d5c8-6e09",
+            "description": "Add a single model to the Leader Unit to act as a Musician.\nThe Leader’s command range is doubled while this model is part of the unit.\nArmed as modeled.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "catalogue": {
+    "name": "Second Seminole War (1835-1842) Seminoles",
+    "id": "5298-b6fd-c66e-f6d9",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "3eb5-b432-c9db-d045",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Coacoochee (Wild Cat)",
+        "id": "7f4d-e5d2-2609-f554",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ee70-d1bc-3f09-9bfc",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Leader", "id": "7c66-6705-88d7-1df0", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Seminole Warriors",
+        "id": "e63e-afc7-57ff-3a3a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "83e8-1fff-b00c-5962",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8946-6e28-0d3e-4c36", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Veteran Seminole Warriors",
+        "id": "d87c-e78c-1117-8e5f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f46-3b77-1945-8502",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3726-1137-1831-f9a0", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Mounted Warriors (Repeater Bows)",
+        "id": "4186-6d6e-4212-2e92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ea4c-95d1-20ab-2e07",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "93b9-4ac1-e848-a397", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"},
+          {"name": "New CategoryLink", "id": "ed1d-36e9-c364-8096", "hidden": false, "primary": false, "targetId": "5c7e-0dec-8c5c-c7c8"}
+        ]
+      },
+      {
+        "name": "Veteran of the First War",
+        "id": "77f0-dc4b-7803-4d04",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a366-da47-ecc7-807e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c58f-8e4c-ab39-c0c6", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}]
+      },
+      {
+        "name": "Mounted Warriors",
+        "id": "bec0-10fc-837b-d7c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "439d-364f-c353-fe57",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a6d9-c6fe-93ad-6656", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Minor Leader",
+        "id": "dd11-9e40-3413-a8f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1a61-23e1-2f8e-36bf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "0a87-c2b5-24d7-b7b4", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"},
+          {"name": "New CategoryLink", "id": "9d0a-2c03-8521-e906", "hidden": false, "primary": false, "targetId": "3185-bbe6-86ce-96a4"}
+        ]
+      },
+      {
+        "name": "Maroon Seminoles",
+        "id": "e4cd-45ea-b2d4-c4cb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "20ee-2f7a-2a01-552b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9c2e-c8a5-17f5-8fa2", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Greater Leader",
+        "id": "0bd2-825e-4b23-fe31",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f70d-b6c5-7fad-6d3d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3f83-b508-a712-3265", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      }
+    ],
+    "rules": [
+      {
+        "name": "National Trait - Guerilla War",
+        "id": "99f2-a420-f204-691e",
+        "description": "This Force’s player may choose the Ambush mission or draw/roll one as usual. Woods must cover over half the table.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Minor Leader",
+        "id": "1a61-23e1-2f8e-36bf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "profiles": [
+          {
+            "name": "Minor Leader",
+            "id": "9424-ade2-c2b0-8349",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "7", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "6", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "1", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Inspiring",
+            "id": "9fbe-3ab0-1acd-6ae5",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Coacoochee (Wild Cat)",
+        "id": "ee70-d1bc-3f09-9bfc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 25}],
+        "profiles": [
+          {
+            "name": "Coacoochee",
+            "id": "8138-7fbe-84b0-3b63",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "7", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "12\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Inspiring",
+            "id": "74f0-6a49-86fd-3f9d",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          },
+          {
+            "name": "Tactician",
+            "id": "4f22-b408-4aba-f450",
+            "description": "After resolving the Calamity and Fortune step of the Initiative Phase, this leader’s player may change the value of 1 Initiative Die up or down by one.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Greater Leader",
+        "id": "f70d-b6c5-7fad-6d3d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 15}],
+        "profiles": [
+          {
+            "name": "Greater Leader",
+            "id": "9257-d5eb-ac3c-502a",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "7", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "6", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "12\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Inspiring",
+            "id": "bbef-0c63-3c0a-7854",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Seminole Warriors",
+        "id": "83e8-1fff-b00c-5962",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Hidden Setup",
+            "id": "700b-2729-73ec-e4f9",
+            "description": "When the unit begins the game deployed, it cannot be attacked until it moves or shoots.",
+            "hidden": false
+          },
+          {"name": "Scouts", "id": "1d9a-8c76-5a25-4e82", "description": "This unit ignores movement penalties from difficult terrain.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warriors",
+            "id": "f2fb-5468-f741-fbc6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "535d-d473-0bfb-822a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "09c0-a6a2-959c-3ea0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Warrior",
+                "id": "7ad1-09ae-61d4-4f1a",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "17f8-1950-bb3e-7239",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Smoothbore Musket (ML)",
+                "id": "4d1f-a509-e93f-ae5b",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Veteran Seminole Warriors",
+        "id": "3f46-3b77-1945-8502",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Hidden Setup",
+            "id": "e8c5-554b-e7b9-c6ad",
+            "description": "When the unit begins the game deployed, it cannot be attacked until it moves or shoots.",
+            "hidden": false
+          },
+          {"name": "Elusive", "id": "9d36-840a-f0c5-2c74", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Veteran Warriors",
+            "id": "3010-d327-9416-54e5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7607-7ddf-df11-d782",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "ef5d-50a1-77a1-1b9a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 7}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Veteran Warrior",
+                "id": "b481-5b2a-6f1c-9933",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "5", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "7345-85a1-900d-0346",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Smoothbore Musket (ML)",
+                "id": "d68b-3429-54aa-2547",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maroon Seminoles",
+        "id": "20ee-2f7a-2a01-552b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "rules": [
+          {
+            "name": "Ruthless",
+            "id": "8a20-e72a-b547-f59e",
+            "description": "Unit gains a -1 bonus to Shoot and Melee tests if this unit has fewer Fatigue Points than its target.",
+            "hidden": false
+          },
+          {"name": "Tough", "id": "2e69-0edd-1623-ec54", "description": "Remove 1 Fatigue Point from this unit before resolving a Rally action.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Maroon Warriors",
+            "id": "ab57-32cb-38a8-0d27",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "ca4f-c07d-5aa8-bf0d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "1b08-5123-6a09-b183",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Maroon Warrior",
+                "id": "c8d1-a5b1-ead0-2bcc",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "5", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "27d3-dd6c-1176-5792",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Smoothbore Musket (ML)",
+                "id": "75e8-700d-fbff-bfa5",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Warriors",
+        "id": "439d-364f-c353-fe57",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "5c5b-9d20-e6b5-9de4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "modifiers": [
+          {
+            "field": "5c5b-9d20-e6b5-9de4",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "ea4c-95d1-20ab-2e07",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Furious Assault", "id": "662d-2b1a-ddc5-c185", "description": "May charge from 6” during Charge actions.", "hidden": false},
+          {
+            "name": "Cavalry",
+            "id": "1d38-7a34-e941-c347",
+            "description": "May take a free Advance action at any point during their activation. Mounted units suffer a +1 penalty to their Shoot Save and Shoot skills. This unit may mount or dismount as part of an Advance action. One model may be used as a horse holder after dismounting. Otherwise, the horses leave the battlefield and the unit loses this trait for the rest of the game. Horses can also be used as Hard Cover when taking the Take Cover action and the unit loses this trait as they cannot mount again when the horses are removed from the game.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mounted Warriors",
+            "id": "7194-310c-b6fc-cdb2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "6eed-a1c2-d78f-217c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "b49b-3dc0-78cb-1c8a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Mounted Warrior (Dismounted)",
+                "id": "f354-7886-3c45-1e11",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "79fd-baf1-e302-f56c",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Smoothbore Musket (ML)",
+                "id": "124d-943f-1681-2235",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Mounted Warrior (Mounted)",
+                "id": "823e-15bc-1f28-67b6",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "8", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "7", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "8", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Warriors (Repeater Bows)",
+        "id": "ea4c-95d1-20ab-2e07",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "b9cd-df2e-8d07-3c4c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "modifiers": [
+          {
+            "field": "b9cd-df2e-8d07-3c4c",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "439d-364f-c353-fe57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Furious Assault", "id": "1142-a1a2-b64a-1e80", "description": "May charge from 6” during Charge actions.", "hidden": false},
+          {
+            "name": "Cavalry",
+            "id": "a700-ec72-ea0d-2d47",
+            "description": "May take a free Advance action at any point during their activation. Mounted units suffer a +1 penalty to their Shoot Save and Shoot skills. This unit may mount or dismount as part of an Advance action. One model may be used as a horse holder after dismounting. Otherwise, the horses leave the battlefield and the unit loses this trait for the rest of the game. Horses can also be used as Hard Cover when taking the Take Cover action and the unit loses this trait as they cannot mount again when the horses are removed from the game.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mounted Warriors",
+            "id": "e791-a357-5949-0b41",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1f26-ca54-0e59-a9dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "4a53-5498-5e15-350d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+            "profiles": [
+              {
+                "name": "Mounted Warrior (Dismounted)",
+                "id": "e439-7b8a-d604-c86d",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Melee",
+                "id": "c052-b488-010c-0aaf",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Mounted Warrior (Mounted)",
+                "id": "9318-9f00-4c6f-b79b",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "5", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "7", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "8", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Bow (Repeater)",
+                "id": "9d09-b467-e99a-f09e",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "20\"", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "-3 bonus to Shoot Save tests from bow attacks.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Veteran of the First War",
+        "id": "a366-da47-ecc7-807e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "694b-51eb-98e6-1994",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 5}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+        "rules": [
+          {
+            "name": "Veteran of the First War",
+            "id": "1ffc-2e6b-839b-6d4a",
+            "description": "Designate a single model to act as a Non-Commissioned Officer (NCO).\nThe NCO’s unit counts as being in command range as long as this model is still part of it.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}

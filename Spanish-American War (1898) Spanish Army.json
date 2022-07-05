@@ -1,0 +1,755 @@
+{
+  "catalogue": {
+    "name": "Spanish-American War (1898) Spanish Army",
+    "id": "65a5-1ade-3cd0-332d",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "3eb5-b432-c9db-d045",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Capitan Angel Rivero",
+        "id": "e204-0e25-c764-dcde",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ce14-c307-49d9-0417",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "002a-d1c4-8cfe-aeae", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Colonial Infantry",
+        "id": "960d-e3d4-5b0a-a4a3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b6cc-22af-43e7-3a32",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d408-ddd1-1a18-92f4", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Teniente",
+        "id": "7bbc-6837-a35d-042f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5492-17c5-6afc-6e91",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "29c2-c612-f8da-e6d0", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      },
+      {
+        "name": "Francotirador (Sharpshooter)",
+        "id": "0497-23fa-4530-0f01",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1115-4f27-35e2-9994",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "dd27-b411-9771-a29d", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Musician",
+        "id": "8f92-1cb2-bdfc-df92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6226-e519-9996-46ae",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a0a8-8391-f323-9922", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}]
+      },
+      {
+        "name": "Sargento Primero",
+        "id": "7105-2e96-3781-0a23",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1e64-77f1-510e-b141",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8e96-89b6-4a8f-73bc", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}]
+      },
+      {
+        "name": "Spanish Soldiers",
+        "id": "f9a5-a249-4f15-3361",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "97b5-3a4f-f7ff-89e2",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4051-8000-73fc-594d", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Cuban Volunteers",
+        "id": "2966-67b2-a458-5e04",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4024-790a-51b4-93b7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "de9d-f89d-1646-62eb", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Spanish Artillery",
+        "id": "7b3b-f244-ef6c-067c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e6e8-0d80-b7fe-a069",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1f93-3bcf-fd71-6632", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}]
+      },
+      {
+        "name": "Comandante",
+        "id": "8ab6-e3ee-28a1-5eaf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5bf5-549c-1c3a-324d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2065-511a-cb14-e753", "hidden": false, "primary": true, "targetId": "fe26-ffb2-897a-7556"}]
+      },
+      {
+        "name": "Capitan",
+        "id": "f8c6-2a1a-a933-0692",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ac07-49f7-4a10-5664",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "02a4-82c2-6f7a-1126", "hidden": false, "primary": true, "targetId": "3185-bbe6-86ce-96a4"}]
+      }
+    ],
+    "rules": [
+      {
+        "name": "National Trait - Que Viva El Nino Rey!",
+        "id": "8ae5-8322-ac67-6502",
+        "description": "Individual Spanish Soldiers units may reroll their first Rally attempt of the game.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Teniente",
+        "id": "5492-17c5-6afc-6e91",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+        "profiles": [
+          {
+            "name": "Teniente",
+            "id": "e560-2dda-68ef-6526",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "6", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "1", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Pistol (BL)",
+            "id": "16b5-fe2d-2091-c387",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+              {
+                "name": "Notes",
+                "$text": "Reroll failed Melee tests.\nWhen they are Breechloader Repeaters, they can shoot multiple times each turn and do  not gain Reload markers.",
+                "typeId": "dff3-a276-cbdb-d3c7"
+              }
+            ]
+          }
+        ],
+        "rules": [{"name": "Cautious", "id": "aac7-c51e-4c21-2850", "description": "Must give Rally orders to Shaken units when possible.", "hidden": false}]
+      },
+      {
+        "name": "Capitan",
+        "id": "ac07-49f7-4a10-5664",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 15}],
+        "profiles": [
+          {
+            "name": "Capitan",
+            "id": "37ed-a70f-59c3-534d",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "6", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "8\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Pistol (BL)",
+            "id": "e6b7-8d1e-3d1c-d5e9",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+              {
+                "name": "Notes",
+                "$text": "Reroll failed Melee tests.\nWhen they are Breechloader Repeaters, they can shoot multiple times each turn and do  not gain Reload markers.",
+                "typeId": "dff3-a276-cbdb-d3c7"
+              }
+            ]
+          }
+        ],
+        "rules": [{"name": "Cautious", "id": "4cef-fa9b-5066-b7f8", "description": "Must give Rally orders to Shaken units when possible.", "hidden": false}]
+      },
+      {
+        "name": "Comandante",
+        "id": "5bf5-549c-1c3a-324d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 25}],
+        "profiles": [
+          {
+            "name": "Comandante",
+            "id": "5282-3a62-5db8-332b",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "6", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "12\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Pistol (BL)",
+            "id": "e739-bc11-1d9e-bd79",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+              {
+                "name": "Notes",
+                "$text": "Reroll failed Melee tests.\nWhen they are Breechloader Repeaters, they can shoot multiple times each turn and do  not gain Reload markers.",
+                "typeId": "dff3-a276-cbdb-d3c7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tactician",
+            "id": "d401-61c5-e89b-f5d6",
+            "description": "After resolving the Calamity and Fortune step of the Initiative Phase, this leader’s player may change the value of 1 Initiative Die up or down by one.",
+            "hidden": false
+          },
+          {"name": "Cautious", "id": "ddd6-7462-3be4-6c4a", "description": "Must give Rally orders to Shaken units when possible.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Capitan Angel Rivero",
+        "id": "ce14-c307-49d9-0417",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 2}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 35}],
+        "profiles": [
+          {
+            "name": "Angel Rivero",
+            "id": "39f2-1d45-2503-5061",
+            "hidden": false,
+            "typeId": "3332-b503-9905-37d2",
+            "typeName": "Leader Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "83e2-b712-3bb5-300c"},
+              {"name": "Shoot", "$text": "6", "typeId": "b303-a47d-19b6-7016"},
+              {"name": "Melee", "$text": "6", "typeId": "b673-9078-b9b7-ada9"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "6e89-b424-f70e-080d"},
+              {"name": "Melee Save", "$text": "7", "typeId": "d2e5-53a0-b6d7-1361"},
+              {"name": "Resolve", "$text": "5", "typeId": "b5c9-557a-a243-48a8"},
+              {"name": "Command Range", "$text": "12\"", "typeId": "b4e1-6d29-7a02-16ed"},
+              {"name": "Command Points", "$text": "2", "typeId": "48a9-a289-19fd-69e4"}
+            ]
+          },
+          {
+            "name": "Pistol (BL)",
+            "id": "6330-88f4-22a4-1318",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+              {
+                "name": "Notes",
+                "$text": "Reroll failed Melee tests.\nWhen they are Breechloader Repeaters, they can shoot multiple times each turn and do  not gain Reload markers.",
+                "typeId": "dff3-a276-cbdb-d3c7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Cautious", "id": "177f-2b3e-e28c-5c03", "description": "Must give Rally orders to Shaken units when possible.", "hidden": false},
+          {
+            "name": "Inspiring",
+            "id": "cc9f-7bbb-3c23-e0be",
+            "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Spanish Soldiers",
+        "id": "97b5-3a4f-f7ff-89e2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}],
+        "rules": [
+          {
+            "name": "Drilled",
+            "id": "236c-ce37-3e0f-56ba",
+            "description": "If all the models in a unit of 5 or more models with this trait are in base to base contact with each other, the unit is considered to be In Formation. While In Formation, the unit gains the Big Target trait, the Intimidating trait, and a -1 bonus to its Melee Save tests. When the unit includes a Non-Commissioned Officer, it also gains a -1 bonus to its Resolve tests.",
+            "hidden": false
+          },
+          {"name": "True Grit", "id": "d511-f5db-e277-b8d1", "description": "May reroll failed results during Melee Save tests.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Spanish Soldier",
+            "id": "0f62-5611-b2a5-9b91",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "4598-02c3-084f-7226",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "37af-0125-7ab4-4003",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 6}],
+            "profiles": [
+              {
+                "name": "Rifle (ABL Repeater)",
+                "id": "37a3-c92f-ff18-072e",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              },
+              {
+                "name": "Soldier",
+                "id": "bb24-6a72-a8a4-b855",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Colonial Infantry",
+        "id": "b6cc-22af-43e7-3a32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}],
+        "rules": [
+          {
+            "name": "Drilled",
+            "id": "2deb-b2aa-9d98-efac",
+            "description": "If all the models in a unit of 5 or more models with this trait are in base to base contact with each other, the unit is considered to be In Formation. While In Formation, the unit gains the Big Target trait, the Intimidating trait, and a -1 bonus to its Melee Save tests. When the unit includes a Non-Commissioned Officer, it also gains a -1 bonus to its Resolve tests.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Colonial Infantry",
+            "id": "1c06-4a26-ee98-9f87",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9a40-4db3-6109-aa24",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "6085-e5a8-cdd5-c720",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 4}],
+            "profiles": [
+              {
+                "name": "Infantry",
+                "id": "3e48-5b51-0185-1215",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "6", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "7", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Rifle (ABL)",
+                "id": "5f1e-d31c-50e6-35ed",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Francotirador (Sharpshooter)",
+        "id": "1115-4f27-35e2-9994",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 7}],
+        "profiles": [
+          {
+            "name": "Sharpshooter",
+            "id": "c94e-fb6e-4d4d-12db",
+            "hidden": false,
+            "typeId": "e068-3dba-eedd-b131",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+              {"name": "Shoot", "$text": "5", "typeId": "f2c2-5727-d5f6-8b86"},
+              {"name": "Melee", "$text": "7", "typeId": "eb23-6d5b-76d1-43c5"},
+              {"name": "Shoot Save", "$text": "5", "typeId": "32c4-7eaf-641c-3f9b"},
+              {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+              {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+            ]
+          },
+          {
+            "name": "Rifle (ABL)",
+            "id": "47ba-c339-a8e9-9df0",
+            "hidden": false,
+            "typeId": "c9cd-57c8-3205-dd49",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+              {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Hidden Setup",
+            "id": "f6a7-cbe9-1fc4-2cf7",
+            "description": "When the unit begins the game deployed, it cannot be attacked until it moves or shoots.",
+            "hidden": false
+          },
+          {
+            "name": "Marksman",
+            "id": "5873-e9c1-d158-c8e1",
+            "description": "This unit may target specific models within range and line of sight when shooting. If any hits are scored, the targeted model must perform the Shoot Save test, and is removed as a casualty if it fails.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Cuban Volunteers",
+        "id": "4024-790a-51b4-93b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}],
+        "rules": [{"name": "Large Unit", "id": "2574-279b-08d6-fdfb", "description": "This unit may have up to 10 models.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Cuban Volunteer",
+            "id": "b096-fa49-7fb7-6e09",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "3fcd-15c8-f65b-7922",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
+              },
+              {
+                "id": "ace6-fd23-ba96-bf13",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 3}],
+            "profiles": [
+              {
+                "name": "Volunteer",
+                "id": "0941-3860-97cd-2830",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "7", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "7", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Rifle (ABL)",
+                "id": "acbf-92a7-7f77-3938",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Artillery",
+        "id": "e6e8-0d80-b7fe-a069",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "423d-6622-abd3-5524", "hidden": false, "primary": true, "targetId": "5c7e-0dec-8c5c-c7c8"}],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 30}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 1}],
+        "rules": [
+          {"name": "Intimidating", "id": "82ae-6426-0c34-9c89", "description": "Opponents hit by this unit must add an extra 1d10 to the Resolve test.", "hidden": false},
+          {"name": "Quick Reload", "id": "2cec-99a5-e521-a1ed", "description": "This unit receives 1 Reload marker after shooting.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Artillery Crew",
+            "id": "51d2-520a-51fb-d525",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7aee-fdfc-85d9-4a7e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              },
+              {
+                "id": "6007-fc11-edd0-ce00",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}, {"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 0}],
+            "profiles": [
+              {
+                "name": "Artillery Crew",
+                "id": "7859-ee8a-4201-ab54",
+                "hidden": false,
+                "typeId": "e068-3dba-eedd-b131",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Move", "$text": "4\"", "typeId": "80ef-ec38-8760-6b0a"},
+                  {"name": "Shoot", "$text": "6", "typeId": "f2c2-5727-d5f6-8b86"},
+                  {"name": "Melee", "$text": "7", "typeId": "eb23-6d5b-76d1-43c5"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "32c4-7eaf-641c-3f9b"},
+                  {"name": "Melee Save", "$text": "7", "typeId": "3dd2-0fb5-c408-024d"},
+                  {"name": "Resolve", "$text": "6", "typeId": "bb14-b0d2-7d1f-fcb3"}
+                ]
+              },
+              {
+                "name": "Artillery",
+                "id": "92c2-1b96-3712-c722",
+                "hidden": false,
+                "typeId": "c9cd-57c8-3205-dd49",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+                  {
+                    "name": "Notes",
+                    "$text": "6d10 for Shoot tests, each natural 10 rolled yields an additional d10 roll to hit.\nGain two Reload markers after shooting. Cannot Move and  Shoot. 90 degree arc of fire. Intimidating.",
+                    "typeId": "dff3-a276-cbdb-d3c7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sargento Primero",
+        "id": "1e64-77f1-510e-b141",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1c3a-7429-4911-cfc9", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}],
+        "constraints": [
+          {
+            "id": "7f7b-c5c6-7322-6ee6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 5}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+        "rules": [
+          {
+            "name": "Sargento Primero",
+            "id": "d4bb-3229-ce53-287a",
+            "description": "Designate a single model to be a Non-Commissioned Officer (NCO).\nThe NCO’s unit counts as being in command range as long as this model is still part of it.\nA formed unit with an NCO gains a -1 bonus to its Resolve.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Musician",
+        "id": "6226-e519-9996-46ae",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c9cf-fda6-494a-90b8", "hidden": false, "primary": true, "targetId": "0389-64d4-2bab-e128"}],
+        "constraints": [
+          {
+            "id": "57e7-1c89-b7a1-21ef",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "2a05-fb94-9a98-c9c0", "value": 10}, {"name": "Iniative", "typeId": "017a-ec37-7db2-a342", "value": 0}],
+        "rules": [
+          {
+            "name": "Musician",
+            "id": "6bf9-03a3-85c9-804e",
+            "description": "Add a single model to the Leader Unit to act as a Musician.\nThe Leader’s command range is doubled while this model is part of the unit.\nArmed as modeled.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
