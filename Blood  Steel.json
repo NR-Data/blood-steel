@@ -1,0 +1,435 @@
+{
+  "gameSystem": {
+    "name": "Blood & Steel",
+    "id": "3eb5-b432-c9db-d045",
+    "battleScribeVersion": 2.03,
+    "revision": 2,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {
+        "name": "Leader",
+        "id": "3185-bbe6-86ce-96a4",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "0756-f1d5-b0a5-52bd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "899e-a847-87fc-375a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {"name": "Core", "id": "fe26-ffb2-897a-7556", "hidden": false},
+      {
+        "name": "Support",
+        "id": "5c7e-0dec-8c5c-c7c8",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "4198-b7a6-486e-e0c9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifierGroups": [
+          {
+            "modifiers": [{"field": "4198-b7a6-486e-e0c9", "type": "increment", "value": 1}],
+            "repeats": [
+              {
+                "childId": "fe26-ffb2-897a-7556",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "repeats": 1,
+                "roundUp": false,
+                "scope": "roster",
+                "shared": true,
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Upgrades", "id": "0389-64d4-2bab-e128", "hidden": false}
+    ],
+    "costTypes": [
+      {"name": "Force Points", "id": "2a05-fb94-9a98-c9c0", "defaultCostLimit": -1, "hidden": false},
+      {"name": "Initiative", "id": "017a-ec37-7db2-a342", "defaultCostLimit": -1, "hidden": false}
+    ],
+    "forceEntries": [
+      {
+        "name": "Force List",
+        "id": "871a-168d-fd99-52c1",
+        "hidden": false,
+        "categoryLinks": [
+          {"name": "Core", "id": "5690-d0d6-1839-211d", "hidden": false, "primary": false, "targetId": "fe26-ffb2-897a-7556"},
+          {"name": "Leader", "id": "833d-f06d-ef8a-df0f", "hidden": false, "primary": false, "targetId": "3185-bbe6-86ce-96a4"},
+          {"name": "Upgrades", "id": "2c27-21dd-1f7e-aeba", "hidden": false, "primary": false, "targetId": "0389-64d4-2bab-e128"},
+          {"name": "Support", "id": "4e24-bd7f-c654-29ff", "hidden": false, "primary": false, "targetId": "5c7e-0dec-8c5c-c7c8"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Leader Unit",
+        "id": "3332-b503-9905-37d2",
+        "characteristicTypes": [
+          {"name": "Move", "id": "83e2-b712-3bb5-300c"},
+          {"name": "Shoot", "id": "b303-a47d-19b6-7016"},
+          {"name": "Melee", "id": "b673-9078-b9b7-ada9"},
+          {"name": "Shoot Save", "id": "6e89-b424-f70e-080d"},
+          {"name": "Melee Save", "id": "d2e5-53a0-b6d7-1361"},
+          {"name": "Resolve", "id": "b5c9-557a-a243-48a8"},
+          {"name": "Command Range", "id": "b4e1-6d29-7a02-16ed"},
+          {"name": "Command Points", "id": "48a9-a289-19fd-69e4"}
+        ]
+      },
+      {
+        "name": "Unit",
+        "id": "e068-3dba-eedd-b131",
+        "characteristicTypes": [
+          {"name": "Move", "id": "80ef-ec38-8760-6b0a"},
+          {"name": "Shoot", "id": "f2c2-5727-d5f6-8b86"},
+          {"name": "Melee", "id": "eb23-6d5b-76d1-43c5"},
+          {"name": "Shoot Save", "id": "32c4-7eaf-641c-3f9b"},
+          {"name": "Melee Save", "id": "3dd2-0fb5-c408-024d"},
+          {"name": "Resolve", "id": "bb14-b0d2-7d1f-fcb3"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "c9cd-57c8-3205-dd49",
+        "characteristicTypes": [{"name": "Max Range", "id": "8869-9257-22d2-3dce"}, {"name": "Notes", "id": "dff3-a276-cbdb-d3c7"}]
+      }
+    ],
+    "publications": [{"name": "Blood & Steel Victorian Age Combat 1837-1901", "id": "b05a-c665-aec4-1564"}],
+    "sharedProfiles": [
+      {
+        "name": "Pistol (BL)",
+        "id": "6ac8-e8cf-eec3-b7ea",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+          {
+            "name": "Notes",
+            "$text": "Reroll failed Melee tests.\nWhen they are Breechloader Repeaters, they can shoot multiple times each turn and do  not gain Reload markers.",
+            "typeId": "dff3-a276-cbdb-d3c7"
+          }
+        ]
+      },
+      {
+        "name": "Pistol (ML)",
+        "id": "440b-fbc5-3aad-fd3b",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "10\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Reroll failed Melee tests.\nGain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Shotgun (ML)",
+        "id": "b296-f98d-001e-f626",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "12\"", "typeId": "8869-9257-22d2-3dce"},
+          {
+            "name": "Notes",
+            "$text": "Each natural roll of 10 adds one additional die to the Shoot test pool, but only once per attack.\nGain one Reload marker after shooting.",
+            "typeId": "dff3-a276-cbdb-d3c7"
+          }
+        ]
+      },
+      {
+        "name": "Bow (Repeater)",
+        "id": "a50b-950d-8276-9a80",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "20\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "-3 bonus to Shoot Save tests from bow attacks.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Smoothbore Musket (ML)",
+        "id": "fa34-38cb-93f8-e86d",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Carbine (BL)",
+        "id": "078e-7b85-6bb2-85a2",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Carbine (Repeater)",
+        "id": "f5e2-55a6-b075-f093",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "No Reload marker after shooting. May use two Shoot actions in an activation.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Gating Gun (Repeater)",
+        "id": "fa1d-7faa-585c-5286",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "40\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "No Reload marker after shooting. May use two Shoot actions in an activation. Intimidating.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Melee",
+        "id": "0eda-6214-3915-4fa5",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "Melee", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Included in unit's Melee value.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Rifled Musket (ML)",
+        "id": "680b-5deb-3468-e870",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "40\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Rifle (BL)",
+        "id": "619d-6b46-5aa4-4547",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Rifle (ABL)",
+        "id": "9283-f86b-4baf-c0e4",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "No Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Carbine (ML)",
+        "id": "1b3e-197f-841c-a61d",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "30\"", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Gain one Reload marker after shooting.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Shotgun (BL)",
+        "id": "5024-dd4b-27a4-4854",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "12'", "typeId": "8869-9257-22d2-3dce"},
+          {"name": "Notes", "$text": "Each natural roll of 10 adds one additional die to the Shoot test pool, but only once per attack.", "typeId": "dff3-a276-cbdb-d3c7"}
+        ]
+      },
+      {
+        "name": "Shotgun (Repeater)",
+        "id": "1d28-60f5-1a6d-e496",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "12'", "typeId": "8869-9257-22d2-3dce"},
+          {
+            "name": "Notes",
+            "$text": "Each natural roll of 10 adds one additional die to the Shoot test pool, but only once per attack.\nWhen double-barreled, they  are Repeaters. Shotgun-armed units may take 2 Shoot actions per activation when the weapon is listed as a Repeater and do not gain Reload markers.",
+            "typeId": "dff3-a276-cbdb-d3c7"
+          }
+        ]
+      },
+      {
+        "name": "Artillery",
+        "id": "05f6-1f8f-e835-7de7",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+          {
+            "name": "Notes",
+            "$text": "Gain two Reload markers after shooting. Cannot Move and  Shoot. 90 degree arc of fire. Intimidating.",
+            "typeId": "dff3-a276-cbdb-d3c7"
+          }
+        ]
+      },
+      {
+        "name": "Light Artillery",
+        "id": "0fbe-9a19-6a3e-7134",
+        "hidden": false,
+        "typeId": "c9cd-57c8-3205-dd49",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Max Range", "$text": "Unlimited", "typeId": "8869-9257-22d2-3dce"},
+          {
+            "name": "Notes",
+            "$text": "4d10 for Shoot tests, each natural 10 rolled yields an additional d10 roll to hit.\nGain two Reload markers after shooting. Cannot Move and  Shoot. 90 degree arc of fire. Intimidating.",
+            "typeId": "dff3-a276-cbdb-d3c7"
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Advanced Breechloaders (ABL)",
+        "id": "a836-bf2f-2cdc-1a81",
+        "description": "These weapons act the same way as BL weapons. However, due to improvements in ammunition, targets hit by units armed with ABL weapons gain a +1 penalty to Shoot Saves as the rounds are deadlier than in previous times.",
+        "hidden": false
+      },
+      {"name": "Big Target", "id": "37c8-c7e5-66bf-955c", "description": "Shoot tests against this unit gain a -1 bonus to hit.", "hidden": false},
+      {"name": "Blood Curdling Charge", "id": "00b5-d7cc-fcf8-1ebd", "description": "-1 to Melee test during Charge actions while mounted.", "hidden": false},
+      {"name": "Cautious", "id": "b0e7-f6f5-dc1e-9365", "description": "Must give Rally orders to Shaken units when possible.", "hidden": false},
+      {
+        "name": "Cavalry",
+        "id": "1b66-027f-b8e7-a2be",
+        "description": "May take a free Advance action at any point during their activation. Mounted units suffer a +1 penalty to their Shoot Save and Shoot skills. This unit may mount or dismount as part of an Advance action. One model may be used as a horse holder after dismounting. Otherwise, the horses leave the battlefield and the unit loses this trait for the rest of the game. Horses can also be used as Hard Cover when taking the Take Cover action and the unit loses this trait as they cannot mount again when the horses are removed from the game.",
+        "hidden": false
+      },
+      {"name": "Close Combat Specialists", "id": "c4f4-2732-d1c1-fe38", "description": "This unit may reroll failed Melee tests.", "hidden": false},
+      {
+        "name": "Drilled",
+        "id": "1eba-7fb8-113c-0050",
+        "description": "If all the models in a unit of 5 or more models with this trait are in base to base contact with each other, the unit is considered to be In Formation. While In Formation, the unit gains the Big Target trait, the Intimidating trait, and a -1 bonus to its Melee Save tests. When the unit includes a Non-Commissioned Officer, it also gains a -1 bonus to its Resolve tests.",
+        "hidden": false
+      },
+      {"name": "Elusive", "id": "14d9-205b-157b-bdbc", "description": "Unit gains a -1 bonus to Shoot Saves while in cover from terrain.", "hidden": false},
+      {
+        "name": "Engineers",
+        "id": "45fd-adf5-3106-0f47",
+        "description": "Unit’s target number to Start Fires is 8 instead of 10. It may use explosives (pg. 30) once a game.",
+        "hidden": false
+      },
+      {"name": "Furious Assault", "id": "251c-0620-96ef-a048", "description": "May charge from 6” during Charge actions.", "hidden": false},
+      {
+        "name": "Glory Hound",
+        "id": "ba15-66c1-b2bb-4cd9",
+        "description": "Must give a Charge order to units in command and Charge range of an opposing unit when this unit is activated.",
+        "hidden": false
+      },
+      {
+        "name": "Hidden Setup",
+        "id": "f87e-c0d2-e50b-7d04",
+        "description": "When the unit begins the game deployed, it cannot be attacked until it moves or shoots.",
+        "hidden": false
+      },
+      {
+        "name": "High Rate of Fire",
+        "id": "30cb-7082-8dcd-d2c9",
+        "description": "Unit rolls 6d10 for Shoot tests when using the main weapon and loses the Repeater trait when down to 1 model.",
+        "hidden": false
+      },
+      {
+        "name": "Inspiring",
+        "id": "e629-d109-154b-988b",
+        "description": "Units in command may reroll failed Rally tests during this Leader’s activation",
+        "hidden": false
+      },
+      {"name": "Intimidating", "id": "f65a-0fb6-fb94-5081", "description": "Opponents hit by this unit must add an extra 1d10 to the Resolve test.", "hidden": false},
+      {"name": "Large Unit", "id": "17d0-25ba-632a-8439", "description": "This unit may have up to 10 models.", "hidden": false},
+      {
+        "name": "Marksman",
+        "id": "0856-0531-ed88-318a",
+        "description": "This unit may target specific models within range and line of sight when shooting. If any hits are scored, the targeted model must perform the Shoot Save test, and is removed as a casualty if it fails.",
+        "hidden": false
+      },
+      {"name": "Quick Reload", "id": "9b33-3a83-874d-a899", "description": "This unit receives 1 Reload marker after shooting.", "hidden": false},
+      {
+        "name": "Ruthless",
+        "id": "1be5-9954-33fc-5911",
+        "description": "Unit gains a -1 bonus to Shoot and Melee tests if this unit has fewer Fatigue Points than its target.",
+        "hidden": false
+      },
+      {"name": "Scouts", "id": "19d8-fa2b-5f53-6bdf", "description": "This unit ignores movement penalties from difficult terrain.", "hidden": false},
+      {"name": "Slow Reload", "id": "c4dc-ae4d-61dd-5e70", "description": "This unit receives 2 Reload markers after shooting.", "hidden": false},
+      {"name": "Steadfast", "id": "190c-9f9d-004c-6d6f", "description": "Unit may reroll failed Resolve tests results.", "hidden": false},
+      {
+        "name": "Tactician",
+        "id": "7654-35c9-cf27-02f0",
+        "description": "After resolving the Calamity and Fortune step of the Initiative Phase, this leader’s player may change the value of 1 Initiative Die up or down by one.",
+        "hidden": false
+      },
+      {"name": "Tough", "id": "1b6a-15dc-b74f-9fce", "description": "Remove 1 Fatigue Point from this unit before resolving a Rally action.", "hidden": false},
+      {"name": "True Grit", "id": "1c76-25b4-ccb0-2282", "description": "May reroll failed results during Melee Save tests.", "hidden": false},
+      {"name": "Assault", "id": "d086-892b-9a6c-98b3", "description": "May reroll all failed results during Shoot Saves from Defensive Fire.", "hidden": false},
+      {
+        "name": "Explosives",
+        "id": "b29e-8350-c862-5513",
+        "description": "Units with the Engineers special rule may use 2 actions to Set Explosives on one objective, building, bridge, fence, or wall. For the explosives to be set, the unit takes a successful Set Fire action (modified to a target number of 8 by the Engineers trait). At the end of their next turn’s activation, the explosives detonate and the structure is destroyed. Any models within  4” of the structure are eliminated and any affected units  must make a Resolve test as usual (1d10 for being hit  by the explosion, + 1d10 per casualty suffered, against  their Resolve value).",
+        "hidden": false
+      },
+      {
+        "name": "Thrown Weapons",
+        "id": "d92d-5ce0-a600-e96a",
+        "description": "A unit armed with thrown weapons may reroll all of their failed Melee rolls made when taking a Charge action.",
+        "hidden": false
+      }
+    ]
+  }
+}
